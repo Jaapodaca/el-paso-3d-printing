@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T09:43:29+00:00",
+  "title": "Design System: El Paso 3D Printing",
+  "extensions": {
+    "colorMeta": {
+      "spool-black": {
+        "role": "neutral",
+        "displayName": "Spool Black",
+        "canonical": "#14120e",
+        "tonalRamp": [
+          "#282622",
+          "#41403c",
+          "#5b5956",
+          "#817f7d",
+          "#a6a6a4",
+          "#c7c7c6",
+          "#e1e0e0",
+          "#f2f2f2"
+        ]
+      },
+      "spool-raised": {
+        "role": "neutral",
+        "displayName": "Spool Raised",
+        "canonical": "#1c1914",
+        "tonalRamp": [
+          "#292621",
+          "#42403b",
+          "#5b5955",
+          "#817f7d",
+          "#a7a6a4",
+          "#c8c7c6",
+          "#e1e0e0",
+          "#f2f2f2"
+        ]
+      },
+      "bone-stock": {
+        "role": "neutral",
+        "displayName": "Bone Stock",
+        "canonical": "#ede7db",
+        "tonalRamp": [
+          "#272624",
+          "#41403c",
+          "#5b5954",
+          "#837f79",
+          "#aaa59d",
+          "#ccc7bc",
+          "#e6e0d4",
+          "#f5f2ec"
+        ]
+      },
+      "worn-bone": {
+        "role": "neutral",
+        "displayName": "Worn Bone",
+        "canonical": "#b3ab9d",
+        "tonalRamp": [
+          "#282623",
+          "#423f3a",
+          "#5d5952",
+          "#857f75",
+          "#ada598",
+          "#ccc6bd",
+          "#e3e0db",
+          "#f3f2f0"
+        ]
+      },
+      "signal-orange": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "canonical": "#ff6b1a",
+        "tonalRamp": [
+          "#4a1f07",
+          "#7b330c",
+          "#ac4811",
+          "#f56719",
+          "#ff9358",
+          "#ffbb96",
+          "#ffdac6",
+          "#fff0e7"
+        ]
+      },
+      "kraft-sand": {
+        "role": "secondary",
+        "displayName": "Kraft Sand",
+        "canonical": "#cfae82",
+        "tonalRamp": [
+          "#2d251c",
+          "#4a3e2f",
+          "#685741",
+          "#947d5d",
+          "#c1a279",
+          "#dcc4a4",
+          "#ecdfcd",
+          "#f7f2ea"
+        ]
+      },
+      "stock-ink-soft": {
+        "role": "neutral",
+        "displayName": "Stock Ink Soft",
+        "canonical": "#625b50",
+        "tonalRamp": [
+          "#292621",
+          "#443f38",
+          "#5f594e",
+          "#847f76",
+          "#a9a59f",
+          "#c9c7c3",
+          "#e2e0de",
+          "#f3f2f1"
+        ]
+      },
+      "orange-ink": {
+        "role": "primary",
+        "displayName": "Orange Ink",
+        "canonical": "#b8400a",
+        "tonalRamp": [
+          "#521d04",
+          "#893007",
+          "#ba440f",
+          "#ca6f47",
+          "#da9a7e",
+          "#e7c0ae",
+          "#f2dcd3",
+          "#faf1ed"
+        ]
+      },
+      "print-bed": {
+        "role": "neutral",
+        "displayName": "Print Bed",
+        "canonical": "#d9d2c4",
+        "tonalRamp": [
+          "#272624",
+          "#42403b",
+          "#5c5953",
+          "#837f77",
+          "#aba59a",
+          "#cdc6b9",
+          "#e5e0d6",
+          "#f4f2ee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Material codes printed on their swatch."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service, step, and price names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and ledes."
+      },
+      "key": {
+        "displayName": "Key",
+        "purpose": "Small label over every spec value."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Reveals and hover transitions."
+      },
+      {
+        "name": "print-steps",
+        "value": "steps(48, jump-end) 2s",
+        "purpose": "Hero photo printing layer by layer."
+      },
+      {
+        "name": "print-up",
+        "value": "steps(14-24, jump-end) 0.7-1.2s",
+        "purpose": "Ridge band, gallery tiles, and material labels printing up from the bed."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "359px (max)"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "lg",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The action on a screen.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Get a quote <svg viewBox=\"0 0 32 32\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><path d=\"M5 16h21M19 9l7 7-7 7\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 22px;border-radius:4px;background:#ff6b1a;color:#14120e;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-primary svg{transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-primary:hover{background:color-mix(in srgb,#ff6b1a 82%,#ede7db)}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:focus-visible{outline:2px solid #ede7db;outline-offset:3px}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action beside the primary.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">See our work</a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;min-height:52px;padding:0 22px;border:1px solid #ede7db;border-radius:4px;color:#ede7db;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-line:hover{background:rgb(237 231 219/.1)}.ds-btn-line:focus-visible{outline:2px solid #ede7db;outline-offset:3px}"
+    },
+    {
+      "name": "Material Label",
+      "kind": "card",
+      "refersTo": "material-label",
+      "description": "A spool label: swatch with code, then spec rows.",
+      "html": "<div class=\"ds-spool\"><p class=\"ds-code\">PLA</p><dl><dt>What it's like</dt><dd>Rigid, crisp detail</dd><dt>Good for</dt><dd>Décor, gifts, signs</dd></dl></div>",
+      "css": ".ds-spool{display:grid;grid-template-columns:7.25rem 1fr;gap:14px;padding:8px 16px 8px 8px;border-radius:8px;background:#ede7db;color:#14120e;font:400 15px/1.4 Archivo,Arial,sans-serif}.ds-code{display:flex;align-items:flex-end;min-height:7rem;margin:0;padding:10px;border-radius:4px;background:#ff6b1a;font:800 40px/.85 Archivo,Arial,sans-serif;font-stretch:62%;text-transform:uppercase}.ds-spool dl{margin:0;padding:10px 0}.ds-spool dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#625b50;margin-top:8px}.ds-spool dd{margin:0}"
+    },
+    {
+      "name": "Field Cell",
+      "kind": "input",
+      "refersTo": "field-cell",
+      "description": "A quote-form field on bone stock.",
+      "html": "<label class=\"ds-cell\"><span>Name</span><input></label>",
+      "css": ".ds-cell{display:flex;flex-direction:column;gap:6px;padding:14px 16px 12px;background:#ede7db;border-radius:8px}.ds-cell span{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#625b50}.ds-cell input{border:0;background:transparent;color:#14120e;font:400 17px/1.5 Archivo,Arial,sans-serif;padding:4px 0}.ds-cell input:focus{outline:none}.ds-cell:focus-within{background:#f8f5ee;box-shadow:inset 0 0 0 2px #14120e}.ds-cell:focus-within span{color:#14120e}"
+    },
+    {
+      "name": "Swatch Band Spec",
+      "kind": "custom",
+      "refersTo": "swatch-band",
+      "description": "Key over value on the orange band.",
+      "html": "<div class=\"ds-band\"><dl><dt>Pickup</dt><dd>7534 Hacienda Ave</dd></dl></div>",
+      "css": ".ds-band{padding:16px 20px;background:#ff6b1a;color:#14120e}.ds-band dl{margin:0}.ds-band dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ds-band dd{margin:0;font:800 18px/1.2 Archivo,Arial,sans-serif;font-stretch:75%;text-transform:uppercase}"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "description": "Header cells with an orange underline on the active link.",
+      "html": "<nav class=\"ds-nav\"><a aria-current=\"true\" href=\"#\">Services</a><a href=\"#\">Pricing</a><a href=\"#\">FAQ</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;height:64px;padding:0 24px;border-bottom:1px solid rgb(237 231 219/.38);background:#14120e}.ds-nav a{display:flex;align-items:center;color:#b3ab9d;text-decoration:none;font:600 13px Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-nav a:hover{color:#ede7db}.ds-nav a[aria-current]{color:#ede7db;box-shadow:inset 0 -3px 0 #ff6b1a}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Spool Label",
+    "overview": "The site is set like the label on a filament spool: a dark spool, die-cut bone labels, a loud color swatch, huge material codes, and small spec rows that tell you exactly what you're getting. It is industrial and plain-spoken, the way a good label is, and it lets the owner's prints carry the color.\n\nSignal orange is the swatch. It fills the band under the hero and the footer, and the top edge of both bands is the Franklin Mountains seen from central El Paso, the one local landmark, used as a shape rather than an illustration. The same orange marks every action. Bone label stock carries the things a visitor reads closely or fills in: the photo label in the hero, the four material labels, and the quote form. Kraft sand prints the small keys on the dark ground.\n\nMotion is printing. The hero photo prints in 48 visible layers inside its label with a layer counter on the label's foot; the mountain band, gallery photos, and material labels print up from the bed when they enter. Everything is visible without JavaScript or motion.",
+    "keyCharacteristics": [
+      "Dark spool-black ground, bone label stock, one orange swatch, kraft sand keys.",
+      "Die-cut labels: 8px corners, solid fills, no borders, no shadows.",
+      "Condensed 800 uppercase for headlines and material codes; tracked small-caps keys over values.",
+      "Orange bands whose top edge is the Franklin ridge open and close the page.",
+      "Owner photos only."
+    ],
+    "rules": [
+      {
+        "name": "The Swatch Rule",
+        "body": "Orange is the swatch: actions, the two mountain bands, and active states. It never colors headline words.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stock Rule",
+        "body": "Bone stock is for things read closely or filled in. On bone, text is spool black, keys are Stock Ink Soft, and errors are Orange Ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Key-Over-Value Rule",
+        "body": "Small facts are a key over a value, like a spec row. No eyebrow labels above headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Die-Cut Rule",
+        "body": "A label is a solid fill with 8px corners. No borders around labels, no shadows, and no colored stripes along a card's edge.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep to the inks: spool black (#14120e), bone stock (#ede7db), signal orange (#ff6b1a), kraft sand (#cfae82).",
+      "**Do** set facts as a key (0.75rem, 700, tracked, uppercase) over a value.",
+      "**Do** use 8px corners on labels and 4px on controls.",
+      "**Do** keep motion to \"printing\": stepped reveals from the bottom up, and everything visible under reduced motion.",
+      "**Do** write every string twice, English then Spanish, as sibling `lang` elements."
+    ],
+    "donts": [
+      "**Don't** add shadows, glows, gradients, or neon edges. The owner ruled out a sci-fi look.",
+      "**Don't** put colored stripes along the top or side of a card.",
+      "**Don't** color headline words orange.",
+      "**Don't** use stock photos. Only the owner's prints.",
+      "**Don't** soften into crafty or cute styling (pastels, doodles, script fonts)."
+    ]
+  }
+}
