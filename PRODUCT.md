@@ -40,6 +40,8 @@ Customers find the site on a phone, often from a search like "3D printing El Pas
 - Name: "El Paso 3D Printing". No logo yet.
 - Imagery: only the owner's photos in `images/`. No stock photos.
 - Dark background with one vivid, high-contrast accent; desert tones as a secondary accent; a subtle Franklin Mountains reference (user-pinned).
+- Palette chosen by the user on 2026-10-17: deep teal background, coral accent, mint secondary (replaces the first orange and desert-sand palette).
+- The Star on the Mountain on Ranger Peak appears with the Franklin Mountains (user request).
 - Must not feel sci-fi or gimmicky (neon glows, fake HUD effects) or crafty/cute (Etsy softness).
 
 ## Evidence on Hand

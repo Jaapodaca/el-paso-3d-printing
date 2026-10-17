@@ -1,21 +1,21 @@
 /* El Paso 3D Printing: the shop's filament spool label.
-   Inks: spool black, bone label stock, signal orange (the swatch: actions, bands, active state), kraft sand (keys). */
+   Inks: deep teal spool, pale label stock, coral (the swatch: actions, bands, active state), mint (keys). */
 
 @property --p { syntax: "<percentage>"; inherits: true; initial-value: 0%; }
 @property --layer { syntax: "<integer>"; inherits: true; initial-value: 48; }
 
 :root {
-  --sheet: #14120e;
-  --sheet-2: #1c1914;
-  --line: #ede7db;
-  --muted: #b3ab9d;
-  --rule: rgb(237 231 219 / 0.16);
-  --rule-strong: rgb(237 231 219 / 0.38);
-  --orange: #ff6b1a;
-  --sand: #cfae82;
-  --ink-soft: #625b50;      /* keys on bone stock */
-  --ink-rule: rgb(20 18 14 / 0.2);
-  --orange-ink: #b8400a;    /* orange text on bone stock */
+  --sheet: #0c2a2c;
+  --sheet-2: #12373a;
+  --line: #eaf2ef;
+  --muted: #a9c2bc;
+  --rule: rgb(234 242 239 / 0.16);
+  --rule-strong: rgb(234 242 239 / 0.38);
+  --accent: #ff7a5c;
+  --mint: #8fc9b9;
+  --ink-soft: #4d6763;      /* keys on label stock */
+  --ink-rule: rgb(12 42 44 / 0.2);
+  --accent-ink: #b8402a;    /* coral text on label stock */
 
   --f: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
@@ -26,8 +26,8 @@
   --ridge: 88px;
 
   color-scheme: dark;
-  accent-color: var(--orange);
-  scrollbar-color: var(--sand) var(--sheet);
+  accent-color: var(--accent);
+  scrollbar-color: var(--mint) var(--sheet);
   scrollbar-width: thin;
 }
 
@@ -45,12 +45,12 @@ body {
   font: 400 1.0625rem/1.6 var(--f);
   font-stretch: 100%;
   -webkit-font-smoothing: antialiased;
-  caret-color: var(--orange);
+  caret-color: var(--accent);
 }
-::selection { background: var(--orange); color: var(--sheet); }
+::selection { background: var(--accent); color: var(--sheet); }
 img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
-a:hover { text-decoration-color: var(--orange); }
+a:hover { text-decoration-color: var(--accent); }
 :focus-visible { outline: 2px solid var(--focus, var(--line)); outline-offset: 3px; }
 h1, h2, h3, p, ul, ol, dl, dd, figure { margin: 0; }
 button { font: inherit; color: inherit; }
@@ -80,7 +80,7 @@ button { font: inherit; color: inherit; }
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
 }
-.use b, .facts dt, .peak, .amount > [lang] { color: var(--sand); }
+.use b, .facts dt, .peak, .amount > [lang] { color: var(--mint); }
 
 /* Codes and headlines */
 h1, h2, h3, .foot-mark, .amount, .code, .num {
@@ -96,7 +96,7 @@ h2 { font-size: clamp(2.75rem, 10vw, 4.5rem); line-height: 0.9; }
 h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 
 .ph {
-  color: var(--sand);
+  color: var(--mint);
   outline: 1px dashed currentColor;
   outline-offset: 2px;
   padding-inline: 0.15em;
@@ -117,8 +117,8 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 .btn:active { transform: translateY(1px); }
 .btn .ic { transition: transform 0.35s var(--ease); }
 .btn:hover .ic { transform: translateX(4px); }
-.btn-primary { background: var(--orange); color: var(--sheet); }
-.btn-primary:hover { background: color-mix(in srgb, var(--orange) 82%, var(--line)); }
+.btn-primary { background: var(--accent); color: var(--sheet); }
+.btn-primary:hover { background: color-mix(in srgb, var(--accent) 82%, var(--line)); }
 .btn-line { border-color: var(--line); color: var(--line); }
 .btn-line:hover { background: color-mix(in srgb, var(--line) 10%, transparent); }
 .btn[disabled] { opacity: 0.55; cursor: progress; }
@@ -151,11 +151,11 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 .lang button:hover:not([aria-pressed="true"]) { color: var(--line); }
 .tb-quote {
   padding: 0 16px;
-  background: var(--orange); color: var(--sheet);
+  background: var(--accent); color: var(--sheet);
   font-weight: 700; font-size: 0.875rem; letter-spacing: 0.06em; text-transform: uppercase;
   text-decoration: none;
 }
-.tb-quote:hover { background: color-mix(in srgb, var(--orange) 82%, var(--line)); }
+.tb-quote:hover { background: color-mix(in srgb, var(--accent) 82%, var(--line)); }
 .tb-menu summary {
   display: grid; place-items: center;
   width: var(--head); height: 100%;
@@ -175,7 +175,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   font-weight: 800; font-stretch: 62%; font-size: 1.5rem; text-transform: uppercase;
   text-decoration: none;
 }
-.tb-menu nav a[aria-current] { text-decoration: underline 3px var(--orange); text-underline-offset: 6px; }
+.tb-menu nav a[aria-current] { text-decoration: underline 3px var(--accent); text-underline-offset: 6px; }
 
 /* ---------- Hero ---------- */
 .hero { padding-top: 40px; }
@@ -197,12 +197,12 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 .label-top { padding: 2px 4px 10px; }
 .label-foot { padding: 10px 4px 2px; }
 .label-foot > :last-child { color: var(--ink-soft); white-space: nowrap; }
-.print { position: relative; border-radius: 4px; overflow: hidden; background: #d9d2c4; }
+.print { position: relative; border-radius: 4px; overflow: hidden; background: #cfdcd8; }
 .print img { width: 100%; clip-path: inset(var(--p) 0 0 0); }
 .print::after { /* the layer being printed */
   content: ""; position: absolute; left: 0; right: 0; top: var(--p);
   height: 3px; margin-top: -1px;
-  background: var(--orange);
+  background: var(--accent);
   opacity: 0;
 }
 .layer-count { counter-reset: layer var(--layer); }
@@ -213,12 +213,12 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   position: relative;
   margin-top: calc(var(--ridge) + 56px);
   padding: 8px 0 32px;
-  background: var(--orange); color: var(--sheet);
+  background: var(--accent); color: var(--sheet);
 }
 .ridge {
   position: absolute; left: 0; bottom: calc(100% - 1px);
   display: block; width: 100%; height: var(--ridge);
-  fill: var(--orange);
+  fill: var(--accent);
 }
 .peak {
   position: absolute; left: 61%;
@@ -227,7 +227,14 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 }
 .peak::after {
   content: ""; position: absolute; left: 50%; top: 100%;
-  width: 1px; height: 10px; background: var(--sand);
+  width: 1px; height: 10px; background: var(--mint);
+}
+.star { /* the Star on the Mountain, strung with lights on Ranger Peak */
+  position: absolute; left: 17.5%;
+  bottom: calc(100% + var(--ridge) * 0.08);
+  width: calc(var(--ridge) * 0.24); height: calc(var(--ridge) * 0.24);
+  translate: -50% 0;
+  fill: none; stroke: var(--line); stroke-width: 7; stroke-linecap: round; stroke-dasharray: 0.1 13;
 }
 .specs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; }
 .specs > div { padding: 16px 0; border-top: 1px solid var(--ink-rule); }
@@ -249,7 +256,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   border-top: 1px solid var(--rule-strong);
 }
 .view > :not(svg, h3) { grid-column: 1 / -1; }
-.view .ic-lg { color: var(--orange); }
+.view .ic-lg { color: var(--accent); }
 .view > p:first-of-type { margin-top: 14px; color: var(--muted); }
 .use { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 0.9375rem; }
 .use b { display: block; margin-bottom: 4px; }
@@ -264,14 +271,14 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   border-radius: var(--r);
   background: var(--line); color: var(--sheet);
 }
-.spool:nth-child(2) { --swatch: var(--sand); }
+.spool:nth-child(2) { --swatch: var(--mint); }
 .spool:nth-child(3) { --swatch: var(--sheet); --swatch-ink: var(--line); }
 .spool:nth-child(4) { --swatch: var(--muted); }
 .code { /* the color swatch, with the material code printed on it */
   display: flex; align-items: flex-end;
   min-height: 7rem; padding: 10px;
   border-radius: 4px;
-  background: var(--swatch, var(--orange)); color: var(--swatch-ink, var(--sheet));
+  background: var(--swatch, var(--accent)); color: var(--swatch-ink, var(--sheet));
   font-size: 2.5rem; line-height: 0.85;
 }
 .spool dl { padding: 10px 0; }
@@ -283,7 +290,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 /* How it works */
 .steps { display: grid; gap: 28px; padding: 0; list-style: none; }
 .steps li { display: grid; grid-template-columns: 3rem 1fr; column-gap: 12px; padding-top: 20px; border-top: 1px solid var(--rule-strong); }
-.num { grid-row: span 2; font-size: 3.5rem; line-height: 0.8; color: var(--sand); }
+.num { grid-row: span 2; font-size: 3.5rem; line-height: 0.8; color: var(--mint); }
 .steps h3 { font-size: 1.5rem; margin-bottom: 6px; }
 .steps p { color: var(--muted); max-width: 36ch; }
 
@@ -317,7 +324,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   transition: background-color 0.25s, color 0.25s;
 }
 .tile:hover img { transform: scale(1.04); }
-.tile:hover .tile-cap { background: var(--orange); color: var(--sheet); }
+.tile:hover .tile-cap { background: var(--accent); color: var(--sheet); }
 
 /* Pricing */
 .prices { gap: 1px; overflow: hidden; border-radius: var(--r); background: var(--ink-rule); }
@@ -343,7 +350,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   border-radius: var(--r);
   background: var(--ink-rule);   /* shows through the 1px gaps as rules */
   color: var(--sheet);
-  caret-color: var(--orange-ink);
+  caret-color: var(--accent-ink);
 }
 .cell {
   position: relative; display: flex; flex-direction: column; gap: 6px;
@@ -352,7 +359,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   transition: background-color 0.2s;
 }
 .quote label { color: var(--ink-soft); }
-.cell:focus-within { background: #f8f5ee; box-shadow: inset 0 0 0 2px var(--sheet); }
+.cell:focus-within { background: #f6faf8; box-shadow: inset 0 0 0 2px var(--sheet); }
 .cell:focus-within label { color: var(--sheet); }
 .quote input, .quote textarea {
   width: 100%; padding: 4px 0; border: 0; border-radius: 0;
@@ -370,17 +377,17 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   font: 700 0.8125rem/1 var(--f); letter-spacing: 0.06em; text-transform: uppercase;
   cursor: pointer;
 }
-.quote .file-btn:hover { background: rgb(20 18 14 / 0.08); }
+.quote .file-btn:hover { background: rgb(12 42 44 / 0.08); }
 #f-file:focus-visible + .file-btn { outline: 2px solid var(--sheet); outline-offset: 3px; }
 .file-row output { font-size: 0.9375rem; color: var(--ink-soft); overflow-wrap: anywhere; }
 .quote input[type="date"] { color-scheme: light; }
 .quote small { font-size: 0.8125rem; color: var(--ink-soft); }
-.cell.bad { box-shadow: inset 0 0 0 2px var(--orange-ink); }
-.err { font-size: 0.875rem; font-weight: 600; color: var(--orange-ink); }
+.cell.bad { box-shadow: inset 0 0 0 2px var(--accent-ink); }
+.err { font-size: 0.875rem; font-weight: 600; color: var(--accent-ink); }
 .cell-submit { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 16px; padding: 20px 16px; }
 .status { font-size: 0.9375rem; font-weight: 600; color: var(--sheet); }
 .status:empty { display: none; }
-.status[data-state="error"] { color: var(--orange-ink); }
+.status[data-state="error"] { color: var(--accent-ink); }
 .status a { color: var(--sheet); }
 .hp { position: absolute; left: -9999px; }
 
@@ -401,8 +408,8 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   font-size: 1.25rem; font-weight: 700; font-stretch: 87.5%; line-height: 1.25;
 }
 .faq summary::-webkit-details-marker { display: none; }
-.faq summary:hover { color: var(--sand); }
-.faq summary .ic { color: var(--orange); transition: transform 0.35s var(--ease); }
+.faq summary:hover { color: var(--mint); }
+.faq summary .ic { color: var(--accent); transition: transform 0.35s var(--ease); }
 .faq details[open] summary .ic { transform: rotate(45deg); }
 .faq details p { max-width: 65ch; padding-bottom: 24px; color: var(--muted); }
 
@@ -411,7 +418,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
   --focus: var(--sheet);
   position: relative;
   margin-top: calc(var(--ridge) + 40px);
-  background: var(--orange); color: var(--sheet);
+  background: var(--accent); color: var(--sheet);
 }
 .foot-mark { padding: 24px 0 28px; font-size: clamp(3rem, 14vw, 6rem); line-height: 0.86; }
 .foot-grid { display: grid; border-top: 1px solid var(--ink-rule); }
@@ -429,7 +436,7 @@ h3 { font-size: 1.75rem; line-height: 1; letter-spacing: 0.005em; }
 .lightbox {
   width: 100%; height: 100%; max-width: none; max-height: none;
   margin: 0; padding: 0; border: 0;
-  background: rgb(20 18 14 / 0.97); color: var(--line);
+  background: rgb(12 42 44 / 0.97); color: var(--line);
 }
 .lightbox::backdrop { background: rgb(0 0 0 / 0.5); }
 html:has(.lightbox[open]) { overflow: hidden; }
@@ -440,7 +447,7 @@ html:has(.lightbox[open]) { overflow: hidden; }
 .lightbox img { max-width: 100%; max-height: 100%; width: auto; min-height: 0; object-fit: contain; border-radius: var(--r); }
 .lightbox figcaption {
   margin-top: 20px; text-align: center;
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sand);
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mint);
 }
 .lb-btn {
   position: absolute;
@@ -507,7 +514,7 @@ html:has(.lightbox[open]) { overflow: hidden; }
     color: var(--muted); text-decoration: none;
   }
   .tb-nav a:hover { color: var(--line); }
-  .tb-nav a[aria-current] { color: var(--line); box-shadow: inset 0 -3px 0 var(--orange); }
+  .tb-nav a[aria-current] { color: var(--line); box-shadow: inset 0 -3px 0 var(--accent); }
   .tb-menu { display: none !important; }
   .tb-quote { padding: 0 28px; }
   .tb-mark { font-size: 1.25rem; }
@@ -541,7 +548,8 @@ html:has(.lightbox[open]) { overflow: hidden; }
   .js .band .ridge { animation: print-up 1.2s steps(24, jump-end) 0.6s both; }
   .js .peak { animation: fade 0.6s ease-out 1.8s both; }
   .js .spool-label:not(.in) .print, .js .spool-label:not(.in) .print::after,
-  .js .band:not(.in) .ridge, .js .band:not(.in) .peak { animation-play-state: paused; }
+  .js .band .star { animation: fade 0.8s ease-out 1.6s both; }
+  .js .band:not(.in) .ridge, .js .band:not(.in) .peak, .js .band:not(.in) .star { animation-play-state: paused; }
 
   /* Scroll-ins */
   .js [data-reveal] { transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }

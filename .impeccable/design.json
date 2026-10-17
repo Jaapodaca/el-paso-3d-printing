@@ -1,142 +1,142 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-17T09:43:29+00:00",
+  "generatedAt": "2026-10-17T10:27:36+00:00",
   "title": "Design System: El Paso 3D Printing",
   "extensions": {
     "colorMeta": {
-      "spool-black": {
+      "deep-teal": {
         "role": "neutral",
-        "displayName": "Spool Black",
-        "canonical": "#14120e",
+        "displayName": "Deep Teal",
+        "canonical": "#0c2a2c",
         "tonalRamp": [
-          "#282622",
-          "#41403c",
-          "#5b5956",
-          "#817f7d",
-          "#a6a6a4",
-          "#c7c7c6",
-          "#e1e0e0",
-          "#f2f2f2"
+          "#0f2c2e",
+          "#2b4547",
+          "#475e5f",
+          "#728384",
+          "#9ca8a9",
+          "#c1c8c9",
+          "#dde1e2",
+          "#f1f3f3"
         ]
       },
-      "spool-raised": {
+      "teal-raised": {
         "role": "neutral",
-        "displayName": "Spool Raised",
-        "canonical": "#1c1914",
+        "displayName": "Teal Raised",
+        "canonical": "#12373a",
         "tonalRamp": [
-          "#292621",
-          "#42403b",
-          "#5b5955",
-          "#817f7d",
-          "#a7a6a4",
-          "#c8c7c6",
-          "#e1e0e0",
-          "#f2f2f2"
+          "#0f2c2f",
+          "#25474a",
+          "#425f62",
+          "#6d8486",
+          "#99a9aa",
+          "#bfc9ca",
+          "#dce2e2",
+          "#f0f3f3"
         ]
       },
-      "bone-stock": {
+      "label-stock": {
         "role": "neutral",
-        "displayName": "Bone Stock",
-        "canonical": "#ede7db",
+        "displayName": "Label Stock",
+        "canonical": "#eaf2ef",
         "tonalRamp": [
-          "#272624",
-          "#41403c",
-          "#5b5954",
-          "#837f79",
-          "#aaa59d",
-          "#ccc7bc",
-          "#e6e0d4",
-          "#f5f2ec"
+          "#252726",
+          "#3e403f",
+          "#575a59",
+          "#7c817f",
+          "#a2a7a5",
+          "#c2c8c6",
+          "#dbe2df",
+          "#edf4f1"
         ]
       },
-      "worn-bone": {
+      "sea-glass": {
         "role": "neutral",
-        "displayName": "Worn Bone",
-        "canonical": "#b3ab9d",
+        "displayName": "Sea Glass",
+        "canonical": "#a9c2bc",
         "tonalRamp": [
-          "#282623",
-          "#423f3a",
-          "#5d5952",
-          "#857f75",
-          "#ada598",
-          "#ccc6bd",
-          "#e3e0db",
-          "#f3f2f0"
+          "#222726",
+          "#394240",
+          "#505c59",
+          "#72837f",
+          "#95aba6",
+          "#b7ccc7",
+          "#d8e3e0",
+          "#eff3f2"
         ]
       },
-      "signal-orange": {
+      "coral": {
         "role": "primary",
-        "displayName": "Signal Orange",
-        "canonical": "#ff6b1a",
+        "displayName": "Coral",
+        "canonical": "#ff7a5c",
         "tonalRamp": [
-          "#4a1f07",
-          "#7b330c",
-          "#ac4811",
-          "#f56719",
-          "#ff9358",
-          "#ffbb96",
-          "#ffdac6",
-          "#fff0e7"
+          "#422018",
+          "#6e3528",
+          "#9a4a37",
+          "#dc694f",
+          "#ff9077",
+          "#ffb9a9",
+          "#ffd9d0",
+          "#ffefec"
         ]
       },
-      "kraft-sand": {
+      "mint": {
         "role": "secondary",
-        "displayName": "Kraft Sand",
-        "canonical": "#cfae82",
+        "displayName": "Mint",
+        "canonical": "#8fc9b9",
         "tonalRamp": [
-          "#2d251c",
-          "#4a3e2f",
-          "#685741",
-          "#947d5d",
-          "#c1a279",
-          "#dcc4a4",
-          "#ecdfcd",
-          "#f7f2ea"
+          "#1d2926",
+          "#31443f",
+          "#446058",
+          "#61897e",
+          "#7eb2a4",
+          "#a2d2c5",
+          "#cce7df",
+          "#eaf5f2"
         ]
       },
       "stock-ink-soft": {
         "role": "neutral",
         "displayName": "Stock Ink Soft",
-        "canonical": "#625b50",
+        "canonical": "#4d6763",
         "tonalRamp": [
-          "#292621",
-          "#443f38",
-          "#5f594e",
-          "#847f76",
-          "#a9a59f",
-          "#c9c7c3",
-          "#e2e0de",
-          "#f3f2f1"
+          "#1e2927",
+          "#334441",
+          "#475f5b",
+          "#6f8481",
+          "#9aa9a7",
+          "#c0c9c8",
+          "#dce2e1",
+          "#f1f3f2"
         ]
       },
-      "orange-ink": {
+      "coral-ink": {
         "role": "primary",
-        "displayName": "Orange Ink",
-        "canonical": "#b8400a",
+        "displayName": "Coral Ink",
+        "canonical": "#b8402a",
         "tonalRamp": [
-          "#521d04",
-          "#893007",
-          "#ba440f",
-          "#ca6f47",
-          "#da9a7e",
-          "#e7c0ae",
-          "#f2dcd3",
-          "#faf1ed"
+          "#501c12",
+          "#852e1e",
+          "#b9422c",
+          "#c96d5c",
+          "#d9998d",
+          "#e7bfb7",
+          "#f2dcd8",
+          "#faf0ef"
         ]
       },
       "print-bed": {
         "role": "neutral",
         "displayName": "Print Bed",
-        "canonical": "#d9d2c4",
+        "canonical": "#cfdcd8",
         "tonalRamp": [
-          "#272624",
-          "#42403b",
-          "#5c5953",
-          "#837f77",
-          "#aba59a",
-          "#cdc6b9",
-          "#e5e0d6",
-          "#f4f2ee"
+          "#242726",
+          "#3d413f",
+          "#555b59",
+          "#7a817f",
+          "#9ea8a5",
+          "#becac6",
+          "#d8e3e0",
+          "#eff3f2"
         ]
       }
     },
@@ -210,7 +210,7 @@
       "refersTo": "button-primary",
       "description": "The action on a screen.",
       "html": "<a class=\"ds-btn-primary\" href=\"#\">Get a quote <svg viewBox=\"0 0 32 32\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><path d=\"M5 16h21M19 9l7 7-7 7\"/></svg></a>",
-      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 22px;border-radius:4px;background:#ff6b1a;color:#14120e;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-primary svg{transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-primary:hover{background:color-mix(in srgb,#ff6b1a 82%,#ede7db)}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:focus-visible{outline:2px solid #ede7db;outline-offset:3px}"
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 22px;border-radius:4px;background:#ff7a5c;color:#0c2a2c;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-primary svg{transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-primary:hover{background:color-mix(in srgb,#ff7a5c 82%,#eaf2ef)}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:focus-visible{outline:2px solid #eaf2ef;outline-offset:3px}"
     },
     {
       "name": "Line Button",
@@ -218,7 +218,7 @@
       "refersTo": "button-line",
       "description": "Secondary action beside the primary.",
       "html": "<a class=\"ds-btn-line\" href=\"#\">See our work</a>",
-      "css": ".ds-btn-line{display:inline-flex;align-items:center;min-height:52px;padding:0 22px;border:1px solid #ede7db;border-radius:4px;color:#ede7db;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-line:hover{background:rgb(237 231 219/.1)}.ds-btn-line:focus-visible{outline:2px solid #ede7db;outline-offset:3px}"
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;min-height:52px;padding:0 22px;border:1px solid #eaf2ef;border-radius:4px;color:#eaf2ef;font:700 15px/1 Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .2s}.ds-btn-line:hover{background:rgb(234 242 239/.1)}.ds-btn-line:focus-visible{outline:2px solid #eaf2ef;outline-offset:3px}"
     },
     {
       "name": "Material Label",
@@ -226,7 +226,7 @@
       "refersTo": "material-label",
       "description": "A spool label: swatch with code, then spec rows.",
       "html": "<div class=\"ds-spool\"><p class=\"ds-code\">PLA</p><dl><dt>What it's like</dt><dd>Rigid, crisp detail</dd><dt>Good for</dt><dd>Décor, gifts, signs</dd></dl></div>",
-      "css": ".ds-spool{display:grid;grid-template-columns:7.25rem 1fr;gap:14px;padding:8px 16px 8px 8px;border-radius:8px;background:#ede7db;color:#14120e;font:400 15px/1.4 Archivo,Arial,sans-serif}.ds-code{display:flex;align-items:flex-end;min-height:7rem;margin:0;padding:10px;border-radius:4px;background:#ff6b1a;font:800 40px/.85 Archivo,Arial,sans-serif;font-stretch:62%;text-transform:uppercase}.ds-spool dl{margin:0;padding:10px 0}.ds-spool dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#625b50;margin-top:8px}.ds-spool dd{margin:0}"
+      "css": ".ds-spool{display:grid;grid-template-columns:7.25rem 1fr;gap:14px;padding:8px 16px 8px 8px;border-radius:8px;background:#eaf2ef;color:#0c2a2c;font:400 15px/1.4 Archivo,Arial,sans-serif}.ds-code{display:flex;align-items:flex-end;min-height:7rem;margin:0;padding:10px;border-radius:4px;background:#ff7a5c;font:800 40px/.85 Archivo,Arial,sans-serif;font-stretch:62%;text-transform:uppercase}.ds-spool dl{margin:0;padding:10px 0}.ds-spool dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#4d6763;margin-top:8px}.ds-spool dd{margin:0}"
     },
     {
       "name": "Field Cell",
@@ -234,7 +234,7 @@
       "refersTo": "field-cell",
       "description": "A quote-form field on bone stock.",
       "html": "<label class=\"ds-cell\"><span>Name</span><input></label>",
-      "css": ".ds-cell{display:flex;flex-direction:column;gap:6px;padding:14px 16px 12px;background:#ede7db;border-radius:8px}.ds-cell span{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#625b50}.ds-cell input{border:0;background:transparent;color:#14120e;font:400 17px/1.5 Archivo,Arial,sans-serif;padding:4px 0}.ds-cell input:focus{outline:none}.ds-cell:focus-within{background:#f8f5ee;box-shadow:inset 0 0 0 2px #14120e}.ds-cell:focus-within span{color:#14120e}"
+      "css": ".ds-cell{display:flex;flex-direction:column;gap:6px;padding:14px 16px 12px;background:#eaf2ef;border-radius:8px}.ds-cell span{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#4d6763}.ds-cell input{border:0;background:transparent;color:#0c2a2c;font:400 17px/1.5 Archivo,Arial,sans-serif;padding:4px 0}.ds-cell input:focus{outline:none}.ds-cell:focus-within{background:#f6faf8;box-shadow:inset 0 0 0 2px #0c2a2c}.ds-cell:focus-within span{color:#0c2a2c}"
     },
     {
       "name": "Swatch Band Spec",
@@ -242,35 +242,35 @@
       "refersTo": "swatch-band",
       "description": "Key over value on the orange band.",
       "html": "<div class=\"ds-band\"><dl><dt>Pickup</dt><dd>7534 Hacienda Ave</dd></dl></div>",
-      "css": ".ds-band{padding:16px 20px;background:#ff6b1a;color:#14120e}.ds-band dl{margin:0}.ds-band dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ds-band dd{margin:0;font:800 18px/1.2 Archivo,Arial,sans-serif;font-stretch:75%;text-transform:uppercase}"
+      "css": ".ds-band{padding:16px 20px;background:#ff7a5c;color:#0c2a2c}.ds-band dl{margin:0}.ds-band dt{font:700 12px Archivo,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}.ds-band dd{margin:0;font:800 18px/1.2 Archivo,Arial,sans-serif;font-stretch:75%;text-transform:uppercase}"
     },
     {
       "name": "Header Nav",
       "kind": "nav",
       "description": "Header cells with an orange underline on the active link.",
       "html": "<nav class=\"ds-nav\"><a aria-current=\"true\" href=\"#\">Services</a><a href=\"#\">Pricing</a><a href=\"#\">FAQ</a></nav>",
-      "css": ".ds-nav{display:flex;gap:28px;height:64px;padding:0 24px;border-bottom:1px solid rgb(237 231 219/.38);background:#14120e}.ds-nav a{display:flex;align-items:center;color:#b3ab9d;text-decoration:none;font:600 13px Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-nav a:hover{color:#ede7db}.ds-nav a[aria-current]{color:#ede7db;box-shadow:inset 0 -3px 0 #ff6b1a}"
+      "css": ".ds-nav{display:flex;gap:28px;height:64px;padding:0 24px;border-bottom:1px solid rgb(234 242 239/.38);background:#0c2a2c}.ds-nav a{display:flex;align-items:center;color:#a9c2bc;text-decoration:none;font:600 13px Archivo,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-nav a:hover{color:#eaf2ef}.ds-nav a[aria-current]{color:#eaf2ef;box-shadow:inset 0 -3px 0 #ff7a5c}"
     }
   ],
   "narrative": {
     "northStar": "The Spool Label",
-    "overview": "The site is set like the label on a filament spool: a dark spool, die-cut bone labels, a loud color swatch, huge material codes, and small spec rows that tell you exactly what you're getting. It is industrial and plain-spoken, the way a good label is, and it lets the owner's prints carry the color.\n\nSignal orange is the swatch. It fills the band under the hero and the footer, and the top edge of both bands is the Franklin Mountains seen from central El Paso, the one local landmark, used as a shape rather than an illustration. The same orange marks every action. Bone label stock carries the things a visitor reads closely or fills in: the photo label in the hero, the four material labels, and the quote form. Kraft sand prints the small keys on the dark ground.\n\nMotion is printing. The hero photo prints in 48 visible layers inside its label with a layer counter on the label's foot; the mountain band, gallery photos, and material labels print up from the bed when they enter. Everything is visible without JavaScript or motion.",
+    "overview": "The site is set like the label on a filament spool: a dark spool, die-cut pale labels, a loud color swatch, huge material codes, and small spec rows that tell you exactly what you're getting. It is industrial and plain-spoken, the way a good label is, and it lets the owner's prints carry the color.\n\nCoral is the swatch. It fills the band under the hero and the footer, and the top edge of both bands is the Franklin Mountains seen from central El Paso, the one local landmark, used as a shape rather than an illustration. The same coral marks every action. Label stock carries the things a visitor reads closely or fills in: the photo label in the hero, the four material labels, and the quote form. Mint prints the small keys on the dark ground.\n\nMotion is printing. The hero photo prints in 48 visible layers inside its label with a layer counter on the label's foot; the mountain band, gallery photos, and material labels print up from the bed when they enter. Everything is visible without JavaScript or motion.\n\nThe Star on the Mountain, the lit star on Ranger Peak, sits on the mountain face in both bands as an outline of pale points of light. It is the one other local landmark, and it never appears anywhere else.",
     "keyCharacteristics": [
-      "Dark spool-black ground, bone label stock, one orange swatch, kraft sand keys.",
+      "Dark deep-teal ground, pale label stock, one coral swatch, mint keys.",
       "Die-cut labels: 8px corners, solid fills, no borders, no shadows.",
       "Condensed 800 uppercase for headlines and material codes; tracked small-caps keys over values.",
-      "Orange bands whose top edge is the Franklin ridge open and close the page.",
+      "Coral bands whose top edge is the Franklin ridge open and close the page.",
       "Owner photos only."
     ],
     "rules": [
       {
         "name": "The Swatch Rule",
-        "body": "Orange is the swatch: actions, the two mountain bands, and active states. It never colors headline words.",
+        "body": "Coral is the swatch: actions, the two mountain bands, and active states. It never colors headline words.",
         "section": "colors"
       },
       {
         "name": "The Stock Rule",
-        "body": "Bone stock is for things read closely or filled in. On bone, text is spool black, keys are Stock Ink Soft, and errors are Orange Ink.",
+        "body": "Label stock is for things read closely or filled in. On label stock, text is deep teal, keys are Stock Ink Soft, and errors are Coral Ink.",
         "section": "colors"
       },
       {
@@ -285,7 +285,7 @@
       }
     ],
     "dos": [
-      "**Do** keep to the inks: spool black (#14120e), bone stock (#ede7db), signal orange (#ff6b1a), kraft sand (#cfae82).",
+      "**Do** keep to the inks: deep teal (#0c2a2c), label stock (#eaf2ef), coral (#ff7a5c), mint (#8fc9b9).",
       "**Do** set facts as a key (0.75rem, 700, tracked, uppercase) over a value.",
       "**Do** use 8px corners on labels and 4px on controls.",
       "**Do** keep motion to \"printing\": stepped reveals from the bottom up, and everything visible under reduced motion.",
@@ -294,7 +294,7 @@
     "donts": [
       "**Don't** add shadows, glows, gradients, or neon edges. The owner ruled out a sci-fi look.",
       "**Don't** put colored stripes along the top or side of a card.",
-      "**Don't** color headline words orange.",
+      "**Don't** color headline words coral.",
       "**Don't** use stock photos. Only the owner's prints.",
       "**Don't** soften into crafty or cute styling (pastels, doodles, script fonts)."
     ]
